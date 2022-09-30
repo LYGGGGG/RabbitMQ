@@ -46,7 +46,7 @@ public class Producer_HelloWorld {
          * props:一些配置
          * body:消息体，字节数组
          */
-        String body = "Hello, RabbitMQ";
+        String body = "Hello, RabbitMQ. My name is Yi";
         channel.basicPublish("","hello_world",null,body.getBytes());
 
         //------释放资源------
