@@ -14,7 +14,6 @@
             <artifactId>amqp-client</artifactId>
             <version>5.6.0</version>
         </dependency>
-<!--
         <dependency>
             <groupId> org.apache.cassandra</groupId>
             <artifactId>cassandra-all</artifactId>
@@ -31,7 +30,7 @@
                 </exclusion>
             </exclusions>
 
-        </dependency>-->
+        </dependency>
     </dependencies>
 
 
