@@ -42,6 +42,6 @@ public class Consumer_1_Simple {
         };
         channel.basicConsume("hello_world", true, consumer);
 
-        //关闭资源？不需要.
+        //关闭资源？不需要
     }
 }

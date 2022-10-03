@@ -39,6 +39,6 @@ public class Consumer_4_Routing01 {
         };
         channel.basicConsume(queueName_1, true, consumer);
 
-        //关闭资源？不需要.
+        //关闭资源？不需要
     }
 }
