@@ -46,6 +46,6 @@ public class Consumer_2_WorkQueues02 {
         //监听队列
         channel.basicConsume("work_queues", true, consumer);
 
-        //关闭资源？不需要
+        //关闭资源？不需要.
     }
 }

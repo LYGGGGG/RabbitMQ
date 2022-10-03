@@ -42,6 +42,6 @@ public class Consumer_2_WorkQueues01 {
         };
         channel.basicConsume("work_queues", true, consumer);
 
-        //关闭资源？不需要
+        //关闭资源？不需要.
     }
 }

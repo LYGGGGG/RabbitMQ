@@ -39,6 +39,6 @@ public class Consumer_5_Topic02 {
         };
         channel.basicConsume(queueName_2, true, consumer);
 
-        //关闭资源？不需要
+        //关闭资源？不需要.
     }
 }
