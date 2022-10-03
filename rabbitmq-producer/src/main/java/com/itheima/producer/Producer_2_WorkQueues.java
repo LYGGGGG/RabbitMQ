@@ -36,7 +36,7 @@ public class Producer_2_WorkQueues {
          * durable:是否持久化，是则重启后，mq仍在
          * exclusive:是否独占，是则只有一个消费者监听这个队列，且连接关闭队列则自动删除
          * autoDelete:是否自动删除，是则没有consumer时，就自动删除
-         * arguments:参数
+         * arguments:参数.
          */
         channel.queueDeclare("work_queues", true, false, false, null);
         //------3 发送消息------

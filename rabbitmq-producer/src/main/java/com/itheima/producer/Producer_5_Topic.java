@@ -49,7 +49,7 @@ public class Producer_5_Topic {
          * durable:是否持久化，是则重启后，mq仍在
          * exclusive:是否独占，是则只有一个消费者监听这个队列
          * autoDelete:是否自动删除，是则没有consumer，就自动删除
-         * arguments:参数
+         * arguments:参数.
          */
         String queueName_1 = "test_topic_queue_1";
         String queueName_2 = "test_topic_queue_2";
