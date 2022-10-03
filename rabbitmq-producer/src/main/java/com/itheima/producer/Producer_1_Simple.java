@@ -44,7 +44,7 @@ public class Producer_1_Simple {
          * exchange:交换机名称，简单模式下使用默认交换机，设置为""
          * routingKey:路由名称，路由到对应的队列
          * props:一些配置
-         * body:消息体，字节数组.
+         * body:消息体，字节数组
          */
         String body = "Hello, RabbitMQ. My name is Yi";
         channel.basicPublish("","hello_world",null,body.getBytes());
